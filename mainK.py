@@ -49,10 +49,8 @@ def filefunc():
     labell.image = img
     labell.grid(row=8,column=0)
 def infofunc():
-    messagebox.showinfo(title="Uygulama Hakkındaki Bilgiler!",message="190204053 Barış UYAR \n"
-                                                                      "190204023 Mahsun Can AKGÜL \n"
-                                                                      "Bitirme Projesi-1 \n"
-                                                                      "Celal Alagöz \n")
+    messagebox.showinfo(title="Uygulama Hakkındaki Bilgiler!",message="190204053 Barış UYAR \n")
+                                                                     
 
 def pts():
     message_box3 = messagebox.showinfo(title="Bilgilendirme!", message="Geçmek için 'Tamam' tuşuna basınız!")
